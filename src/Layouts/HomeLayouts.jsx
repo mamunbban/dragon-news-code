@@ -1,6 +1,7 @@
 
 import Header from '../components/Header';
 import LatestNews from '../components/LatestNews';
+import LeftNavbar from '../components/Layout-components/LeftNavbar';
 import Navbar from '../components/Navbar';
 
 const HomeLayouts = () => {
@@ -19,7 +20,7 @@ const HomeLayouts = () => {
 
             <main className='w-11/12 mx-auto gap-3 py-5  lg:grid grid-cols-12'>
 
-            <aside className='left col-span-3'>Left</aside>
+            <aside className='left col-span-3'><LeftNavbar></LeftNavbar></aside>
             <section className='main col-span-6'>Main</section>
             <aside className='right col-span-3'> Right</aside>
 
